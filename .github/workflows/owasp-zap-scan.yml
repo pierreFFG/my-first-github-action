@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Scan the web application
     steps:
-      - name: Checkout
+      - name: Checkout1
         uses: actions/checkout@v2
         with:
           ref: master
